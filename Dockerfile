@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN npm install -g tsd@^0.6.0 typescript@^1.5.0
 
 COPY ./nginx /etc/nginx
-COPY ./app /var/www/angular
+COPY ./rollingwithadvantage /var/www/angular
 
 WORKDIR /var/www/angular
 RUN tsd install angular2 es6-promise rx rx-lite
