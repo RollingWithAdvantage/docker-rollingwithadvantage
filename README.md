@@ -1,3 +1,5 @@
-This image contains the example from the angular page using typescript and
-nginx as HTTP server.
-https://angular.io/docs/js/latest/quickstart.html
+### To build
+
+git pull https://github.com/RollingWithAdvantage/rwa
+create .env file with "MONGODB_CONNECT_STRING=mongodb://yourmongostring"
+docker-compose up
